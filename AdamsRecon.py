@@ -150,7 +150,7 @@ def run_tool(tool, target):
             for num, api in THE_HARVESTER_APIS.items():
                 print(f"  {num}. {api['name']}")
             
-            selected_apis = input(f"{GREEN}[?] Select APIs to use (comma-separated, e.g., 1,3): {END}").strip().split(",")
+            selected_apis = input(f"{GREEN}[?] Select APIs to use or press enter (comma-separated, e.g., 1,3): {END}").strip().split(",")
             
             for num in selected_apis:
                 if num in THE_HARVESTER_APIS:
