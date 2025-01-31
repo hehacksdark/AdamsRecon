@@ -4,6 +4,9 @@
 AdamsScan is an automated subdomain enumeration tool that utilizes multiple popular tools and APIs like Sublist3r, Amass, Subfinder, crt.sh and TheHarvester. It helps security researchers discover subdomains, gather valuable information, and streamline passive reconnaissance for security assessments. Designed during TCM Security's PJPT training, this tool streamlines early-stage penetration testing workflows.
 
 # ✨ Features
+
+![image](https://github.com/user-attachments/assets/8e6c7bbc-145c-4f2f-9c4a-583ea65f887a)
+
 ## Integrated Tool Suite: 
 - Combines 6+ reconnaissance tools  
 - Smart Validation: Auto-filter subdomains belonging to target  
@@ -15,15 +18,14 @@ AdamsScan is an automated subdomain enumeration tool that utilizes multiple popu
 
 ## Usage
 ```sh
-./AdamsRecon.py
-```
-```sh
 cd AdamsRecon
 ```
 ```sh
 chmod +x adamsrecon.py
 ```
-
+```sh
+./AdamsRecon.py
+```
 
 ## Prerequisites & Required System Tools:
 AdamsRecon requires Python **3.6 or higher** to run.  
@@ -66,7 +68,7 @@ Set environment variables for TheHarvester integrations:
 # Example for Shodan
 export SHODAN_API_KEY="your_key_here"
 ```
-See full list in CONFIGURATION.md
+See full list in [Configuration Guide](configuration.md)
 
 ## 📂 Output Structure
 📦 results/  
