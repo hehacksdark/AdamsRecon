@@ -5,7 +5,7 @@ AdamsScan is an automated subdomain enumeration tool that utilizes multiple popu
 
 # ✨ Features
 
-![image](https://github.com/user-attachments/assets/8e6c7bbc-145c-4f2f-9c4a-583ea65f887a)
+![image](https://github.com/user-attachments/assets/a4da7c55-e804-4ba4-ad0f-f17d2003e459)
 
 ## Integrated Tool Suite: 
 - Combines 6+ reconnaissance tools  
