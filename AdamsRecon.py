@@ -16,6 +16,7 @@ def display_banner():
 ██║  ██║██████╔╝██║  ██║██║ ╚═╝ ██║███████║    ██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
 ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
                                                                                Version 1.0
+                                Inspired by Heath Adams (TCM Security) and the PJPT course
     """
     print(banner)
     print("Coded By Shivam Sharma - @hehacksdark")
