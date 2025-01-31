@@ -68,7 +68,7 @@ Set environment variables for TheHarvester integrations:
 # Example for Shodan
 export SHODAN_API_KEY="your_key_here"
 ```
-See full list in [Configuration Guide](configuration.md)
+See full list in [Configuration Guide](Configuration.md)
 
 ## 📂 Output Structure
 📦 results/  
