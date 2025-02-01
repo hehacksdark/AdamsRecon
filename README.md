@@ -100,12 +100,22 @@ See full list in [Configuration Guide](Configuration.md)
 ## 📜 License  
 GNU General Public License v1.0
 
+# What’s next? 🚀
+I’m already working on AdamsRecon Version 1.1, which will include:
+
+- **New Tools:** WaybackURL and a tool to capture screenshots of subdomain pages.  
+- **Interactive Features:** Customizable commands and options for each selected tool.
+- **Even more structured output:** Better data categorization for deeper insights 
+
+Stay tuned for the update! It's coming soon, and I can't wait to share it with you. 🛠️
+
 # 🙏 Acknowledgments
 - Heath Adams/TCM Security for inspiration
-- Open-source tool maintainers:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Sublist3r by @aboul3la.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Subfinder by ProjectDiscovery.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - TheHarvester   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Amass by OWASP  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Findomain by @Edu4rdSHL.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - httpx by ProjectDiscovery.  
+- Open-source tool maintainers:
+   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Sublist3r by @aboul3la.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Subfinder by ProjectDiscovery.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - TheHarvester   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Amass by OWASP  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Findomain by @Edu4rdSHL.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - httpx by ProjectDiscovery.  
