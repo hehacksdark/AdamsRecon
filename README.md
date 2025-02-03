@@ -41,7 +41,7 @@ sudo apt install python3-pip git
 ```
 ## Install required tools
 ```sh
-pip3 install sublist3r theHarvester httpx findomain
+pip3 install sublist3r theHarvester httpx findomain amass
 ```
 ```sh
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
