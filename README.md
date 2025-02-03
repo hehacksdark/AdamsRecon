@@ -1,7 +1,9 @@
 # AdamsRecon
 **A Comprehensive Subdomain Enumeration Script** - *Inspired by Heath Adams (TCM Security) and the PJPT course*
 
-AdamsScan is an automated subdomain enumeration tool that utilizes multiple popular tools and APIs like Sublist3r, Amass, Subfinder, crt.sh and TheHarvester. It helps security researchers discover subdomains, gather valuable information, and streamline passive reconnaissance for security assessments. Designed during TCM Security's PJPT training, this tool streamlines early-stage penetration testing workflows.
+AdamsScan is an automated subdomain enumeration script that utilizes multiple popular tools and APIs like Sublist3r, Amass, Subfinder, crt.sh and TheHarvester. It helps security researchers discover subdomains, gather valuable information, and streamline passive reconnaissance for security assessments. Designed during TCM Security's PJPT training, this tool streamlines early-stage penetration testing workflows.  
+
+Note: Before using AdamsRecon, ensure that you have the latest versions of all required tools installed. Keeping these tools up to date ensures optimal performance and compatibility with the script.  
 
 # ✨ Features
 
