@@ -20,11 +20,11 @@ def display_banner():
     """
     print(banner)
     print("Coded By Shivam Sharma - @hehacksdark")
-# Call this function to display the banner
+
 display_banner()
 
 
-# Colors for visibility
+
 GREEN = "\033[92m"
 YELLOW = "\033[93m"
 CYAN = "\033[96m"
@@ -106,7 +106,7 @@ def parse_theharvester_output(target):
         for line in f:
             line = line.strip()
             
-            # Detect section headers
+            
             if line.startswith("[*] Hosts found:"):
                 current_section = "subdomains"
             elif line.startswith("[*] IPs found:"):
@@ -118,7 +118,7 @@ def parse_theharvester_output(target):
             elif line.startswith("[*] Tweets found:") or line.startswith("[*] Interesting URLs found:"):
                 current_section = "others"
             elif line and current_section:
-                # Clean and validate data
+                
                 cleaned = line.split(':', 1)[-1].strip() if ':' in line else line
                 if current_section == "subdomains" and is_valid_subdomain(cleaned, target):
                     sections["subdomains"].append(cleaned)
@@ -129,7 +129,7 @@ def parse_theharvester_output(target):
                 elif current_section == "asns" and cleaned.startswith("AS"):
                     sections["asns"].append(cleaned)
     
-    # Save to separate files
+    
     for category, data in sections.items():
         if data:
             with open(f"subdomains/theharvester_{category}.txt", "w") as f:
@@ -166,7 +166,7 @@ def run_tool(tool, target):
                         if key:
                             api_env[api_info["env"]] = key
             
-            # Run TheHarvester
+            
             cmd = f"theHarvester -d {target} -b all -f subdomains/theharvester.txt"
             subprocess.run(
                 cmd, 
@@ -176,7 +176,7 @@ def run_tool(tool, target):
                 stderr=subprocess.DEVNULL
             )
             
-            # Parse output
+            
             parse_theharvester_output(target)
         
         else:
@@ -194,7 +194,7 @@ def filter_and_clean(target):
     output_dir = Path("subdomains")
     
     for tool_file in output_dir.glob("*.txt"):
-        # Skip TheHarvester's parsed files except subdomains
+        
         if "theharvester_" in tool_file.name and tool_file.name != "theharvester_subdomains.txt":
             continue
         with open(tool_file, "r") as f:
@@ -216,24 +216,24 @@ def main():
     
     selected = input(f"\n{GREEN}[?] Select tools (comma-separated, e.g., 1,3,5): {END}").strip().split(",")
     
-    # Setup directories
+    
     output_dir = Path("subdomains")
     output_dir.mkdir(exist_ok=True)
     
-    # Clear previous results
+    
     for f in output_dir.glob("*.txt"):
         f.unlink()
     
-    # Run selected tools
+    
     for num in selected:
         if num in TOOLS:
             run_tool(TOOLS[num], target)
     
-    # Filter and clean results
+    
     print(f"{YELLOW}\n[*] Validating results...{END}")
     valid_count = filter_and_clean(target)
     
-    # Combine results
+    
     combined_path = Path("combined_subdomains.txt").resolve()
     live_path = Path("live_subdomains.txt").resolve()
     
