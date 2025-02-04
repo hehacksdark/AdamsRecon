@@ -115,7 +115,7 @@ I’m already working on AdamsRecon Version 1.1, which will include:
 Stay tuned for the update! It's coming soon, and I can't wait to share it with you. 🛠️
 
 # 🙏 Acknowledgments
-- Heath Adams/TCM Security for inspiration
+- Heath Adams/TCM Security for inspiration - [@hmaverickadams](https://github.com/hmaverickadams)  
 - Open-source tool maintainers:
    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Sublist3r by @aboul3la.  
