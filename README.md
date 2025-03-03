@@ -118,9 +118,9 @@ Stay tuned for the update! It's coming soon, and I can't wait to share it with y
 - Heath Adams/TCM Security for inspiration - [@hmaverickadams](https://github.com/hmaverickadams)  
 - Open-source tool maintainers:
    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Sublist3r by @aboul3la.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Subfinder by ProjectDiscovery.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - TheHarvester   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Amass by OWASP  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Findomain by @Edu4rdSHL.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - httpx by ProjectDiscovery.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Sublist3r](https://github.com/aboul3la/Sublist3r) by @aboul3la.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Subfinder](https://github.com/projectdiscovery/subfinder) by ProjectDiscovery.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [TheHarvester](https://github.com/laramies/theHarvester)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Amass](https://github.com/owasp-amass/amass) by OWASP  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Findomain](https://github.com/Findomain/Findomain) by @Edu4rdSHL.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [httpx](https://github.com/projectdiscovery/httpx) by ProjectDiscovery.  
